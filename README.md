@@ -1,12 +1,11 @@
-# TINYI LANGUAGE MODEL
+# AI-system-for-undeciphered-scripts
 
-I am building a specialized Document Intelligence system for ancient/inscription-based symbols.
+
+Building a specialized Document Intelligence system for ancient/inscription-based symbols.
 The project works on symbol images stored as files (not embedded in CSV).
 
 Each symbol has multiple visual variants.
 Images are normalized and referenced by path only.
-
-## I maintain:
 
 • sign_inventory.csv → one row per image with image path, sign_id, variant_id, normalization info
 • sign_map.csv (or JSON) → maps sign_id to canonical meaning/label and groups variants
